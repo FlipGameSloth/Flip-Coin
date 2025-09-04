@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlipGame Coin (FLIP)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background: #f7f7f7;
+      color: #222;
+    }
+    header {
+      padding: 40px 20px;
+      background: #4a90e2;
+      color: white;
+    }
+    header img {
+      width: 120px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      margin: 10px 0;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+    a.button {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      background: #4a90e2;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+    a.button:hover {
+      background: #357ab8;
+    }
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Replace with your logo -->
+    <img src="logo.png" alt="FLIP Logo" />
+    <h1>FlipGame Coin (FLIP)</h1>
+    <p>The token for the Flip betting game ecosystem.</p>
+  </header>
+
+  <section>
+    <h2>About FLIP</h2>
+    <p>
+      FlipGame Coin (FLIP) is a community-driven token built on Polygon.
+      It powers a unique game-show style betting experience where users can
+      stake, flip, and win in real time.
+    </p>
+
+    <h2>Token Details</h2>
+    <ul style="list-style:none; padding:0;">
+      <li><b>Contract:</b> 0x4aDe9f87c3c155ECbE96eFCa0950D9d5Bfef93Cc</li>
+      <li><b>Network:</b> Polygon (MATIC)</li>
+      <li><b>Symbol:</b> FLIP</li>
+      <li><b>Decimals:</b> 18</li>
+    </ul>
+
+    <h2>Trade FLIP</h2>
+    <a class="button" href="https://dexscreener.com/polygon/0x74D1578E3Db15AE7605E1420dFC3801eEe98428e" target="_blank">View on DexScreener</a>
+    <a class="button" href="https://quickswap.exchange/#/swap?outputCurrency=0x4aDe9f87c3c155ECbE96eFCa0950D9d5Bfef93Cc" target="_blank">Trade on QuickSwap</a>
+
+    <h2>Community</h2>
+    <a class="button" href="#">Twitter</a>
+    <a class="button" href="#">Telegram</a>
+    <a class="button" href="#">Discord</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FlipGame Coin. All rights reserved.</p>
+  </footer>
+</body>
+</html>
